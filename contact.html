@@ -1,0 +1,80 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Restaurant website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-color: lavender;">
+
+    <!-- Navbar section starts-->
+	<section class="navbar">
+       		
+		<div class="container">
+			
+			<div class="logo">
+				<img src="images/images.png" alt="Restaurant Logo" class="img-logo">
+			</div>
+
+			<div class="menu text-right">
+				<ul>
+					<li>
+						<a href="/index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="/categories.html">Categories</a>
+					</li>
+
+					<li>
+						<a href="/contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="clearfix">
+			</div>
+		</div>
+	</section>
+	<!-- Navbar section end-->
+
+    <form id="form-details" method="GET">
+        <h1 id="contact-heading">Contact Us</h1>
+        <div>
+            <p class="input-label">Name</p> 
+            <input class="input-item" type="text" name="Name" placeholder="Full name" autofocus required>
+        </div>
+
+        <div>
+            <p class="input-label">Email</p>
+            <input class="input-item" type="email" name="Email" placeholder="Email" required>
+        </div>
+
+        <div >
+            <p class="input-label">Mobile No. </p>
+            <input class="input-item" type="number" name="mobile no" placeholder="Mobile No" required>
+        </div>
+
+        <div>
+            <p class="input-label">Age</p>
+            <input class="input-item" type="number" name="Age" max="60" min="5" >
+        </div>
+        
+       <div>
+        <p class="input-label input-age">Gender</p>
+        <input type="radio" name="Male" value="male">Male</input>
+        <input type="radio" name="Female" value="Female">Female</input>
+       </div>
+
+        <div>
+            <input class="input-submit" type="submit" value="submit" >
+        </div>
+
+    </form>
+
+
+
+
+</body>
+</html>
